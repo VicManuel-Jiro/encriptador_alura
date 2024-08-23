@@ -184,7 +184,7 @@ footer {
     border-top: 1px solid #495057;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .logo {
         width: 31px;
         height: 48px;
