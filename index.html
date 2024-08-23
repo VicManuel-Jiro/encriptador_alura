@@ -15,8 +15,6 @@
 
 <body>
     <div class="encriptador">
-
-
         <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
             <g class="layer">
                 <path clip-rule="evenodd"
@@ -25,7 +23,8 @@
             </g>
         </svg>
         <div class="input">
-            <textarea class="input_text" name="input" id="input" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="input_text" name="input" id="input" placeholder="Ingrese el texto aqui"
+                oninput="validarEntrada()"></textarea>
             <div class="buttons_area">
                 <p class="tip"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos
                 </p>

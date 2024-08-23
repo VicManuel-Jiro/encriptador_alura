@@ -48,7 +48,15 @@ function desencriptar() {
     }
 
 }
-
+function validarEntrada() {
+    var textarea = document.getElementById('input');
+    var texto = textarea.value;
+    var textoValido = texto.replace(/[^a-z\s]/g, '');
+    if (texto !== textoValido) {
+        alert('Por favor, ingrese solo letras minúsculas y espacios.');
+        textarea.value = textoValido;
+    }
+}
 
 function copiar() {
     var texto = document.getElementById('output').innerText;
