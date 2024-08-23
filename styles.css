@@ -1,0 +1,262 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    list-style-type: none;
+}
+
+html {
+    background-color: #F3F5FC;
+}
+
+.encriptador {
+    display: flex;
+    gap: 80px;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#input {
+    margin-top: 20%;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: vertical;
+    padding: 10px;
+    font-family: Inter;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: left;
+    color: #0A3871;
+    resize: none;
+}
+
+#input::placeholder {
+    color: #0A3871;
+}
+
+#input:focus {
+    outline: none;
+}
+
+.buttons_area {
+    margin-bottom: 32px;
+}
+
+.buttons_group {
+    display: flex;
+    gap: 24px;
+}
+
+.input_button {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    border-width: 1px;
+    font-size: 1rem;
+    font-family: inter;
+}
+
+.input_button.enc {
+    background-color: #0A3871;
+    border-color: #0A3871;
+    color: white;
+}
+
+.input_button.dec {
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 32px;
+    width: 400px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    margin: auto;
+    margin-top: 40px;
+    opacity: 0px;
+    height: calc(100vh - 80px);
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    margin-top: calc((100vh - 80px - 440px)/2);
+    gap: 32px;
+}
+
+.texto_dummie_container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.texto_dummie {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.texto_dummie.negritas {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+.full {
+    display: none;
+    flex-direction: column;
+    margin-top: 32px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.texto_encriptado {
+    width: 100%;
+    flex: 1;
+    margin: 0;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #495057;
+    line-height: 36px;
+    text-align: left;
+}
+
+.input_button.copy {
+    border-color: #0A3871;
+    background-color: transparent;
+    color: #0A3871;
+    align-self: flex-end;
+    margin-bottom: 32px;
+}
+
+
+.tip {
+    font-size: 0.75rem;
+    color: #495057;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 31px;
+        height: 48px;
+        gap: 0;
+        margin-top: 76px;
+        margin-left: 40px;
+    }
+
+    .encriptador {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .input {
+        gap: 32px;
+    }
+
+    #input {
+        margin: auto;
+        margin-left: 40px;
+        margin-top: 116px;
+        width: 90%;
+        height: 50vh;
+    }
+
+    .buttons_area {
+        margin: auto;
+    }
+
+    .buttons_group {
+        width: 688;
+        margin-top: 16px;
+    }
+
+    .input_button {
+        width: 332px;
+    }
+
+    .output {
+        margin-top: 40px;
+        opacity: 0px;
+        height: auto;
+        padding: 32px;
+        width: 90%;
+        margin-bottom: 32px;
+    }
+
+    .empty {
+        margin-top: 0;
+    }
+
+    .svg_empty {
+        display: none;
+    }
+
+    .full {}
+
+    .input_button.copy {
+
+        width: 100%;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+
+
+}
+
+@media (max-width: 375px) {
+    .logo {
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    #input {
+        margin-left: 16px;
+        margin-top: 56px;
+        height: 30vh;
+    }
+
+    .buttons_group {
+        flex-direction: column;
+    }
+}
