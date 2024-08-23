@@ -44,9 +44,7 @@ Después de encriptar o desencriptar, haz clic en el botón "Copiar" para copiar
 # Estructura del Proyecto
 
 index.html: El archivo HTML principal que contiene la estructura de la aplicación.
-
 styles.css: Archivo CSS con el diseño y estilo de la aplicación.
-
 javascript.js: Archivo JavaScript con la lógica de encriptación, desencriptación y validación.
 
 # Autor
