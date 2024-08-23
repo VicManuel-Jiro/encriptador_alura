@@ -217,6 +217,7 @@ footer {
     .buttons_group {
         width: 688;
         margin-top: 16px;
+        flex-direction: column;
     }
 
     .input_button {
