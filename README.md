@@ -42,11 +42,12 @@ El texto desencriptado aparecerá en el área de resultados.
 Después de encriptar o desencriptar, haz clic en el botón "Copiar" para copiar el texto procesado al portapapeles.
 
 # Estructura del Proyecto
+
 index.html: El archivo HTML principal que contiene la estructura de la aplicación.
+
 styles.css: Archivo CSS con el diseño y estilo de la aplicación.
+
 javascript.js: Archivo JavaScript con la lógica de encriptación, desencriptación y validación.
-Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas contribuir al proyecto, sigue estos pasos:
 
 # Autor
 Victor Manuel Jiménez Rosas - VicManuel-Jiro
