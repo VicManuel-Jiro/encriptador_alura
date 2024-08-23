@@ -10,6 +10,7 @@
 body {
     font-size: 100%;
     list-style-type: none;
+
 }
 
 html {
@@ -176,7 +177,6 @@ html {
 }
 
 footer {
-
     text-align: center;
     padding: 20px;
     background-color: #0A3871;
