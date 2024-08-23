@@ -175,6 +175,15 @@ html {
     margin-bottom: 18px;
 }
 
+footer {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #0A3871;
+    color: white;
+    border-top: 1px solid #495057;
+}
+
 @media (max-width: 768px) {
     .logo {
         width: 31px;
