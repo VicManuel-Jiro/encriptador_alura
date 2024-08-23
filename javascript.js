@@ -29,9 +29,10 @@ function encriptar() {
     document.getElementsByClassName('empty').style.display = 'none';
     document.getElementById('output').textContent = resultado;
 }
+/*
 function desencriptar() {
 
 }
 function copiar() {
 
-}
+}*/
