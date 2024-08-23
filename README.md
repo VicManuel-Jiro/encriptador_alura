@@ -17,6 +17,7 @@ Bienvenido al proyecto de Encriptador Alura, una aplicación web que permite enc
 ## 1. Clona este repositorio en tu máquina local:
    
    git clone https://github.com/VicManuel-Jiro/encriptador_alura.git
+   
    Navega al directorio del proyecto:
 
 ## 2. Abre la aplicacion web
@@ -28,13 +29,17 @@ Abre index.html en tu navegador para ver la aplicación en acción.
 ## Encriptar Texto:
 
 Ingresa el texto en el área de texto.
+
 Haz clic en el botón "Encriptar".
+
 El texto encriptado aparecerá en el área de resultados.
 
 ## Desencriptar Texto:
 
 Ingresa el texto encriptado en el área de texto.
+
 Haz clic en el botón "Desencriptar".
+
 El texto desencriptado aparecerá en el área de resultados.
 
 ## Copiar Texto:
@@ -44,7 +49,9 @@ Después de encriptar o desencriptar, haz clic en el botón "Copiar" para copiar
 # Estructura del Proyecto
 
 index.html: El archivo HTML principal que contiene la estructura de la aplicación.
+
 styles.css: Archivo CSS con el diseño y estilo de la aplicación.
+
 javascript.js: Archivo JavaScript con la lógica de encriptación, desencriptación y validación.
 
 # Autor
