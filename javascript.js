@@ -25,8 +25,8 @@ function encriptar() {
                 break;
         }
     });
-    document.getElementsByClassName('full').style.display = 'flex';
-    document.getElementsByClassName('empty').style.display = 'none';
+    document.getElementById('full').style.display = 'flex';
+    document.getElementById('empty').style.display = 'none';
     document.getElementById('output').textContent = resultado;
 }
 /*
